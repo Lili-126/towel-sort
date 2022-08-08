@@ -4,9 +4,9 @@ const towelSort = require('./src/index.js');
 
 describe('.towelSort, should perfrom \'towelSort\'', () => {
 
-  it('Should return empty array if no params passed', () => {
-    assert.deepEqual(towelSort(), []);
-  });
+    it('Should return empty array if no params passed', () => {
+        assert.deepEqual(towelSort(), []);
+      });
 
   it('Should return empty array if matrix is empty', () => {
     assert.deepEqual(towelSort([]), []);
